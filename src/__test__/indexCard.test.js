@@ -2,8 +2,9 @@
 import React from 'react';
 import { render, fireEvent, waitFor } from '@testing-library/react';
 import '@testing-library/jest-dom/extend-expect';
-import { ShoppingCartProvider } from '../Context';
 import Card from '../Components/Card/index';
+import { ShoppingCartProvider } from '../Context';
+
 import fetchMock from 'jest-fetch-mock';
 
 beforeEach(() => {
